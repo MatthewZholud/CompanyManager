@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/MatthewZholud/TestTaskMicroservices/routes"
+	"github.com/MatthewZholud/CompanyManagre/routes"
 	"github.com/gorilla/mux"
 
-	"github.com/MatthewZholud/TestTaskMicroservices/company"
-	"github.com/MatthewZholud/TestTaskMicroservices/employee"
+	"github.com/MatthewZholud/CompanyManagre/company"
+	"github.com/MatthewZholud/CompanyManagre/employee"
 	"google.golang.org/grpc"
 )
 
